@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brawl Stars Fan Page</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+  <header>
+    <img src="img/favicon.png" alt="Logo Brawl Stars" class="logo">
+    <h1>Brawl Stars Fan Page</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#descripcion">Descripción</a></li>
+      <li><a href="#tabla">Tabla</a></li>
+      <li><a href="#registro">Registro</a></li>
+      <li><a href="#galeria">Galería</a></li>
+    </ul>
+  </nav>
+
+  <section id="inicio" class="hero">
+    <img src="img/Hero.webp" alt="Brawl Stars Hero">
+    <div class="hero-text">
+      <h2>¡Únete a la batalla!</h2>
+      <a href="#registro" class="btn">Regístrate Ahora</a>
+    </div>
+  </section>
+
+  <section id="descripcion">
+    <article>
+      <h2>¿Qué es Brawl Stars?</h2>
+      <p>Brawl Stars es un videojuego multijugador en línea desarrollado por Supercell. Fue lanzado mundialmente en 2018 y se ha convertido en uno de los juegos más populares de estrategia y acción en dispositivos móviles. En Brawl Stars los jugadores se enfrentan en batallas en tiempo real con diferentes modos de juego, personajes únicos llamados brawlers, y estrategias para obtener la victoria. Cada brawler posee habilidades distintas y se puede mejorar con el tiempo. Los modos de juego incluyen atrapar gemas, supervivencia, asalto y muchos otros eventos que cambian a diario, lo que mantiene el juego fresco y emocionante.</p>
+      <img src="img/Bra1.jfif" alt="Brawler 1">
+      <img src="img/Bra2.webp" alt="Brawler 2">
+      <img src="img/modojuego.webp" alt="Modo de juego">
+    </article>
+  </section>
+
+  <section id="tabla">
+    <h2>Estadísticas de Brawlers</h2>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Rareza</th>
+        <th>Salud</th>
+        <th>Daño</th>
+        <th>Velocidad</th>
+      </tr>
+      <tr>
+        <td>Shelly</td>
+        <td>Común</td>
+        <td>3600</td>
+        <td>300</td>
+        <td>Normal</td>
+      </tr>
+      <tr>
+        <td>Colt</td>
+        <td>Raro</td>
+        <td>2800</td>
+        <td>400</td>
+        <td>Rápido</td>
+      </tr>
+      <tr>
+        <td>Jessie</td>
+        <td>Raro</td>
+        <td>3200</td>
+        <td>360</td>
+        <td>Normal</td>
+      </tr>
+      <tr>
+        <td>Bull</td>
+        <td>Común</td>
+        <td>5600</td>
+        <td>400</td>
+        <td>Lento</td>
+      </tr>
+      <tr>
+        <td>Leon</td>
+        <td>Legendario</td>
+        <td>3200</td>
+        <td>600</td>
+        <td>Muy rápido</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="registro">
+    <h2>Registro</h2>
+    <form action="registro_exitoso.html" method="post">
+      <label>Nombre:</label><input type="text" name="nombre" required><br>
+      <label>Email:</label><input type="email" name="email" required><br>
+      <label>Contraseña:</label><input type="password" name="password" required><br>
+
+      <p>¿Qué modos te gustan más?</p>
+      <label><input type="checkbox" name="modos" value="gemas"> Atrapa gemas</label>
+      <label><input type="checkbox" name="modos" value="supervivencia"> Supervivencia</label>
+      <label><input type="checkbox" name="modos" value="asalto"> Asalto</label>
+      <label><input type="checkbox" name="modos" value="caza"> Caza estelar</label>
+      <label><input type="checkbox" name="modos" value="balon"> Balón Brawl</label>
+
+      <p>¿Con qué frecuencia juegas?</p>
+      <label><input type="radio" name="frecuencia" value="diario"> Diario</label>
+      <label><input type="radio" name="frecuencia" value="semanal"> Semanal</label>
+      <label><input type="radio" name="frecuencia" value="mensual"> Mensual</label><br>
+
+      <button type="reset">Reiniciar</button>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="video">
+    <h2>Brawl Stars</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KOQP_Q0LCAY?si=BDpNrwVzNBxk6nRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería de Brawlers</h2>
+    <div class="galeria">
+      <img src="img/1.webp" alt="Brawler 1">
+      <img src="img/2.jpg" alt="Brawler 2">
+      <img src="img/3.jpg" alt="Brawler 3">
+      <img src="img/4.jpg" alt="Brawler 4">
+      <img src="img/5.webp" alt="Brawler 5">
+      <img src="img/6.webp" alt="Brawler 6">
+      <img src="img/7.jpg" alt="Brawler 7">
+      <img src="img/8.jfif" alt="Brawler 8">
+    </div>
+  </section>
+
+  <section id="listas">
+    <h2>Listas Interesantes</h2>
+    <ul class="personalizada">
+      <li>Mejores brawlers para principiantes</li>
+      <li>Trucos para ganar más rápido</li>
+      <li>Mapas recomendados</li>
+      <li>Eventos especiales semanales</li>
+      <li>Consejos para jugar en equipo</li>
+    </ul>
+    <ul class="personalizada">
+      <li>Modos de juego populares</li>
+      <li>Los más usados en torneos</li>
+      <li>Actualizaciones recientes</li>
+      <li>Comparación de habilidades</li>
+      <li>Estilos de juego por brawler</li>
+    </ul>
+    <ul class="personalizada">
+      <li>Brawlers legendarios</li>
+      <li>Estadísticas por nivel</li>
+      <li>Accesorios recomendados</li>
+      <li>Combos efectivos</li>
+      <li>Mejores skins</li>
+    </ul>
+  </section>
+
+  <section id="redes">
+    <h2>Síguenos en redes</h2>
+    <a href="https://www.youtube.com/@BrawlStars" target="_blank"><img src="youtube.png" alt="YouTube"></a>
+    <a href="https://twitter.com/BrawlStars" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+    <a href="https://www.instagram.com/brawlstars/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+    <a href="https://www.facebook.com/BrawlStars/" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+  </section>
+
+  <footer>
+    <p>Autor: Rodas Rivera Victor Hugo</p>
+  </footer>
+</body>
+
+</html>
